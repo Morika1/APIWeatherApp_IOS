@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		04FE87CD2B208F2D004DD100 /* APIWeatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE87CC2B208F2D004DD100 /* APIWeatherAppApp.swift */; };
-		04FE87CF2B208F2D004DD100 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE87CE2B208F2D004DD100 /* ContentView.swift */; };
+		04FE87CF2B208F2D004DD100 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE87CE2B208F2D004DD100 /* ListView.swift */; };
 		04FE87D12B208F2F004DD100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FE87D02B208F2F004DD100 /* Assets.xcassets */; };
 		04FE87D42B208F2F004DD100 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FE87D32B208F2F004DD100 /* Preview Assets.xcassets */; };
+		04FE87DB2B208F5C004DD100 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE87DA2B208F5C004DD100 /* Models.swift */; };
+		04FE87DD2B2091E9004DD100 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE87DC2B2091E9004DD100 /* ListViewModel.swift */; };
+		04FE87DF2B20A651004DD100 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE87DE2B20A651004DD100 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04FE87C92B208F2D004DD100 /* APIWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE87CC2B208F2D004DD100 /* APIWeatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWeatherAppApp.swift; sourceTree = "<group>"; };
-		04FE87CE2B208F2D004DD100 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04FE87CE2B208F2D004DD100 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		04FE87D02B208F2F004DD100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FE87D32B208F2F004DD100 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04FE87DA2B208F5C004DD100 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		04FE87DC2B2091E9004DD100 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		04FE87DE2B20A651004DD100 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				04FE87CC2B208F2D004DD100 /* APIWeatherAppApp.swift */,
-				04FE87CE2B208F2D004DD100 /* ContentView.swift */,
+				04FE87CE2B208F2D004DD100 /* ListView.swift */,
 				04FE87D02B208F2F004DD100 /* Assets.xcassets */,
 				04FE87D22B208F2F004DD100 /* Preview Content */,
+				04FE87DA2B208F5C004DD100 /* Models.swift */,
+				04FE87DC2B2091E9004DD100 /* ListViewModel.swift */,
+				04FE87DE2B20A651004DD100 /* DetailsView.swift */,
 			);
 			path = APIWeatherApp;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FE87CF2B208F2D004DD100 /* ContentView.swift in Sources */,
+				04FE87CF2B208F2D004DD100 /* ListView.swift in Sources */,
+				04FE87DF2B20A651004DD100 /* DetailsView.swift in Sources */,
 				04FE87CD2B208F2D004DD100 /* APIWeatherAppApp.swift in Sources */,
+				04FE87DD2B2091E9004DD100 /* ListViewModel.swift in Sources */,
+				04FE87DB2B208F5C004DD100 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
